@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AdventureGameLibrary
 {
-    internal class Game
+    public class Game
     {
         private Speler player;
         private Room currentRoom;
@@ -12,7 +12,7 @@ namespace AdventureGameLibrary
 
         public Game()
         {
-            this.player
+            this.player;
         }
 
         public void setPlayer()
