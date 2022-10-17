@@ -6,5 +6,11 @@ namespace AdventureGameLibrary
 {
     internal class World
     {
+        private readonly List<Room> world;
+
+        public World(List<Room> world)
+        {
+            this.world = world;
+        }
     }
 }
